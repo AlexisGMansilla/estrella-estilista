@@ -1,0 +1,175 @@
+.bg {
+    background-image: url('../assets/bg-home.png');
+    background-size: cover; 
+    background-position: center; 
+    min-height: 95vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border-bottom: 10px solid #FFC7CA;
+}
+.bg .title {
+    margin-right: 90vh;
+    font-size:x-large;
+    line-height: 1.8;
+    margin-top: 14vh;
+}
+.bg h1{
+    font-family: "Dancing Script", cursive;
+    font-style:italic;
+    font-size: 5rem;
+    line-height: 1.4;
+}
+.bg .title h1,
+.bg  .title p,
+.bg  .title a {
+    margin-bottom: 24px;
+}
+.bg a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC7CA;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #080808;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.bg a:hover{
+    background-color: #FFA0A3; 
+    transform: scale(1.07);
+}
+.bg i{
+    vertical-align: middle;
+}
+.bg span{
+    margin-left: 6px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.services-item{
+    background-color: #FFC7CA;
+    font-size: 18px;
+}
+.services-item.color-black{
+    background-color: #080808;
+    color:#f8f8f8;
+}
+.services-item.color-burdeos{
+    background-color: #9F151B;
+    color:#f8f8f8;
+}
+.services-item.color-red{
+    background-color: #F83B44;
+    color:#080808;
+}
+.services-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.services-item-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 16px;
+}
+.services-item-text i{
+    display: hidden;
+    font-size: 24px;
+}
+
+.banner {
+    border-top: 10px solid #FFC7CA;
+    display: flex;
+    width: 100%;
+    min-height: 70vh; 
+}
+
+.banner-img {
+    background-image: url('../assets/services-makeup2.webp');
+    background-size: cover; 
+    background-position: center; 
+    flex: 1;
+}
+
+.textbanner {
+    background-image: url('../assets/bg-banner.webp');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f2f5; 
+}
+
+.textbanner h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.6rem;
+    text-align: center;
+    color: #080808;
+    padding: 20px;
+}
+.textbanner p{
+    margin: 0px 40px;
+    padding: 40px;
+}
+.textbanner a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC7CA;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #080808;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.textbanner a:hover{
+    background-color: #FFA0A3; 
+    transform: scale(1.07);
+}
+
+@media (max-width: 768px) {
+    .bg{
+        background-image: none;
+    }
+    .bg .title {
+        margin-right: 0px;
+        font-size: 2rem;
+        line-height: 1.6;
+        margin-top: 8vh;
+        text-align: center;
+    }
+    
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 100%; 
+    }
+    .services-item-text{
+        padding: 16px;
+    }
+    .textbanner h1 {
+        font-size: 1.8rem;
+        padding: 10px; 
+    }
+    .textbanner p{
+        padding: 10px 0px;
+        margin: 10px 16px;
+    }
+}

@@ -1,0 +1,60 @@
+.contactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/services-hair3.webp');
+    background-size: cover; 
+    background-position: center;
+}
+.form{
+    background-color: #ffc7ca8f;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form .controls{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #48070A;
+}
+.form .controlsEmail{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #48070A;
+    resize: none;
+}
+.form .buttonSubmit{
+    background-color:#FFA0A3;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+}
+.form textarea{
+    font-family: "Open Sans", sans-serif;
+}
+.form .buttonSubmit:hover{
+    background-color: #080808;
+    color: #FFC7CA;
+    cursor: pointer;
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 14px;
+    font-family: "Dancing Script", cursive;
+    font-size: 38px;
+}
